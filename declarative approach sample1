@@ -1,0 +1,25 @@
+pipeline
+{
+agent sample1
+{
+stages
+{
+stage('build')
+{
+echo "bulding"
+}
+stage('test')
+{
+echo "testing"
+}
+stage('deploy')
+{
+echo "deploying"
+}
+stage('release')
+{
+echo "releaseing"
+}
+}
+}
+}
